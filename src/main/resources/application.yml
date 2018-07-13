@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    messages:
+      path: /messages/**
+      url: http://localhost:8001/
+eureka:
+  client:
+    enabled: false
